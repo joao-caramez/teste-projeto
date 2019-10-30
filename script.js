@@ -1,4 +1,4 @@
- //conta botão
+ //operação que vai ser realizada ao apertar o botão
     function botao(){
         var pl1 = document.getElementById("placeholder1").value
     var pl2 = document.getElementById("placeholder2").value
@@ -27,7 +27,7 @@
 
 
     
-    //conferir se todos os campos estão preenchidos;
+    //conferir se todos os campos estão preenchidos
     if(pl1 == ""){
         window.alert("preencha todos os campos!")
       
