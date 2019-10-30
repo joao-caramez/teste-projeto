@@ -1,0 +1,107 @@
+
+#foteenha{
+  position: absolute;   
+  width:4.5%;
+  top:5%;
+  left:46%;
+}
+#test{
+position: absolute;
+left: 20%;
+top:94%;
+font-family: sans-serif;
+}
+#plc{
+  position: absolute;
+  right: 35%;
+  top:20%;
+  text-align:center;
+  animation: move 2s;
+}
+#placeholder3{
+    animation: move 4s;
+}
+#placeholder2{
+    animation: move 2s;
+}
+#placeholder1{
+    animation: move 1s;
+}
+#placeholder4{
+    animation: move 3s;
+}
+@keyframes move{
+    from{
+    opacity: 0;
+    transform: translateX(-55%)
+    }
+    to{
+    opacity: 1;
+    transform: translateX(0%)
+    }
+}
+#menu ul li a{
+    padding: 15px 10px;
+    
+    color:black;
+    font-family: sans-serif;
+}
+#menu ul li {
+    
+    display: inline;
+}
+#menu {
+    background-color: rgb(0, 0, 0);
+    padding:4px;
+}
+
+#menu ul {
+    position: absolute;
+    right: -1%;
+    background-color: rgb(0, 0, 0);
+    padding: 2%;
+    top:-4.25%;
+    width: 98%;
+}
+body{
+    background-image: linear-gradient(to right, DeepSkyBlue , aquamarine);
+    
+    
+}
+#divsobre{
+    font-family: sans-serif;
+    position: absolute;
+    right: 25%;
+    top:40%;
+}
+#sobresty{
+    font-family: sans-serif;
+}
+#tituloh1{
+    font-family: sans-serif;
+    position: relative;
+    
+
+}
+p{
+    font-family: sans-serif;
+}
+#divsobre{
+    position:absolute;
+    animation: move 2s;
+    text-align:center;
+    right: 30%;
+}
+#result{
+    position: absolute;
+    left: 7%;
+    top:89%;
+}
+
+
+h1{
+    font-family: sans-serif
+}
+#backgroundfundo{
+    width: 100%;
+}
